@@ -23,22 +23,14 @@
             "name": "FloorPlane",
             "components": [
                 {
-                    "type": "mesh",
-                    "mesh": {
-                        "mesh": "7",
-                        "material": "20"
-                    },
-                    "active": true
-                },
-                {
                     "type": "collision",
                     "collision": {
                         "collider": "aabb",
                         "aabb": {
                             "extents": [
-                                4.0,
+                                8.6000003,
                                 0.05,
-                                4.0
+                                8.0
                             ]
                         },
                         "groups": 4
@@ -46,48 +38,20 @@
                 }
             ],
             "translation": [
-                0.0,
-                0.0,
-                1.1920928955078125e-7
+                -0.0564286,
+                -0.1926441,
+                0.9088497
             ],
             "rotation": [
-                -0.7072496,
+                -0.7072563,
                 0.0,
                 0.0,
-                0.7069638
+                0.7069572
             ],
             "scaling": [
                 4.0,
                 4.0,
                 4.0
-            ]
-        },
-        "16": {
-            "name": "Cube",
-            "components": [
-                {
-                    "type": "mesh",
-                    "mesh": {
-                        "mesh": "8",
-                        "material": "22"
-                    }
-                }
-            ],
-            "translation": [
-                2.9802322387695313e-8,
-                0.4999999,
-                5.960464477539065e-8
-            ],
-            "rotation": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "scaling": [
-                0.5,
-                0.5,
-                0.5
             ]
         },
         "17": {
@@ -202,14 +166,14 @@
                 {
                     "type": "light",
                     "light": {
-                        "intensity": 3.3329999
+                        "intensity": 8.401
                     }
                 }
             ],
             "translation": [
-                0.0,
-                3.0,
-                2.0
+                6.1650099,
+                3.6828987,
+                1.7134376
             ],
             "rotation": [
                 0.0,
@@ -229,14 +193,14 @@
                 {
                     "type": "light",
                     "light": {
-                        "intensity": 3.3329999
+                        "intensity": 8.4329996
                     }
                 }
             ],
             "translation": [
-                -1.0,
-                3.0,
-                -1.0
+                -7.1417608,
+                3.7524909,
+                1.6522026
             ],
             "rotation": [
                 0.0,
@@ -248,62 +212,6 @@
                 1.0,
                 1.0,
                 1.0
-            ]
-        },
-        "24": {
-            "name": "Cone",
-            "components": [
-                {
-                    "type": "mesh",
-                    "mesh": {
-                        "mesh": "10",
-                        "material": "25"
-                    }
-                }
-            ],
-            "translation": [
-                1.5,
-                1.0,
-                -1.4901161193847656e-8
-            ],
-            "rotation": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "scaling": [
-                1.0,
-                1.0,
-                1.0
-            ]
-        },
-        "27": {
-            "name": "Sphere",
-            "components": [
-                {
-                    "type": "mesh",
-                    "mesh": {
-                        "mesh": "9",
-                        "material": "26"
-                    }
-                }
-            ],
-            "translation": [
-                0.4999999,
-                0.75,
-                -1.25
-            ],
-            "rotation": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "scaling": [
-                0.75,
-                0.75,
-                0.75
             ]
         },
         "53": {
@@ -1485,168 +1393,6 @@
             "parent": "167",
             "skin": "166"
         },
-        "194": {
-            "name": "Panel",
-            "components": [
-                {
-                    "type": "mesh",
-                    "mesh": {
-                        "mesh": "195",
-                        "material": "202"
-                    }
-                }
-            ],
-            "translation": [
-                -2.5,
-                1.2,
-                0.0
-            ],
-            "rotation": [
-                0.5002117,
-                0.0,
-                0.0,
-                0.8659031
-            ],
-            "scaling": [
-                0.25,
-                0.1249998,
-                0.2499998
-            ]
-        },
-        "196": {
-            "link": {
-                "name": "Cube",
-                "file": "models\\button.glb"
-            },
-            "parent": "197",
-            "components": [
-                {
-                    "mesh": {
-                        "material": "26"
-                    }
-                }
-            ],
-            "name": "ButtonMesh",
-            "translation": [
-                -0.0000094,
-                0.3244419,
-                -0.0000676
-            ],
-            "rotation": [
-                6.000006465001206e-7,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "scaling": [
-                1.0,
-                0.9999989,
-                0.9999989
-            ]
-        },
-        "197": {
-            "name": "Button",
-            "parent": "194",
-            "components": [
-                {
-                    "type": "collision",
-                    "collision": {
-                        "collider": "box",
-                        "box": {
-                            "extents": [
-                                0.0974999,
-                                0.025,
-                                0.045
-                            ]
-                        },
-                        "groups": 251
-                    }
-                },
-                {
-                    "type": "cursor-target"
-                },
-                {
-                    "type": "button",
-                    "button": {
-                        "buttonMeshObject": "196",
-                        "hoverMaterial": "203"
-                    }
-                }
-            ],
-            "translation": [
-                0.0,
-                0.057682,
-                0.175434
-            ],
-            "rotation": [
-                -0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "scaling": [
-                0.4,
-                0.4999999,
-                0.3
-            ]
-        },
-        "198": {
-            "name": "ButtonLabel",
-            "parent": "196",
-            "components": [
-                {
-                    "type": "text",
-                    "text": {
-                        "text": "Thanks!"
-                    }
-                }
-            ],
-            "translation": [
-                -0.0001563,
-                0.1084579,
-                0.0000046
-            ],
-            "rotation": [
-                -0.7068095,
-                0.0,
-                0.0,
-                0.7074038
-            ],
-            "scaling": [
-                2.5,
-                3.7999999,
-                4.8000063
-            ]
-        },
-        "200": {
-            "name": "Title",
-            "parent": "194",
-            "components": [
-                {
-                    "type": "text",
-                    "text": {
-                        "text": "Welcome to\nWonderland",
-                        "material": "201"
-                    }
-                }
-            ],
-            "translation": [
-                -0.0000023,
-                0.1554993,
-                -0.303415
-            ],
-            "rotation": [
-                -0.7068591,
-                0.0,
-                0.0,
-                0.7073543
-            ],
-            "scaling": [
-                1.5,
-                3.0000002,
-                1.5000001
-            ]
-        },
         "205": {
             "name": "TrackedSpace",
             "parent": "14",
@@ -1889,6 +1635,236 @@
                     "type": "input"
                 }
             ]
+        },
+        "308": {
+            "link": {
+                "name": "RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            }
+        },
+        "309": {
+            "link": {
+                "name": "RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "308"
+        },
+        "310": {
+            "link": {
+                "name": "Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "309"
+        },
+        "311": {
+            "link": {
+                "name": "Cylinder.008<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "310"
+        },
+        "312": {
+            "link": {
+                "name": "Cylinder.008_0<Cylinder.008<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "311"
+        },
+        "313": {
+            "link": {
+                "name": "Cube.035<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "310"
+        },
+        "314": {
+            "link": {
+                "name": "Cube.035_0<Cube.035<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "313"
+        },
+        "315": {
+            "link": {
+                "name": "Cylinder_Cylinder.009<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "310"
+        },
+        "316": {
+            "link": {
+                "name": "Cylinder_Cylinder.009_0<Cylinder_Cylinder.009<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "315"
+        },
+        "317": {
+            "link": {
+                "name": "Plane.001<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "310"
+        },
+        "318": {
+            "link": {
+                "name": "Plane.001_0<Plane.001<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "317"
+        },
+        "319": {
+            "link": {
+                "name": "Cylinder.000<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "310"
+        },
+        "320": {
+            "link": {
+                "name": "Cylinder.000_0<Cylinder.000<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "319"
+        },
+        "321": {
+            "link": {
+                "name": "Plane.009<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "310"
+        },
+        "322": {
+            "link": {
+                "name": "Plane.009_0<Plane.009<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "321"
+        },
+        "323": {
+            "link": {
+                "name": "Cylinder<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "310"
+        },
+        "324": {
+            "link": {
+                "name": "Cylinder_0<Cylinder<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "323"
+        },
+        "325": {
+            "link": {
+                "name": "Plane<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "310"
+        },
+        "326": {
+            "link": {
+                "name": "Plane_0<Plane<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "325"
+        },
+        "327": {
+            "link": {
+                "name": "Cylinder.002<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "310"
+        },
+        "328": {
+            "link": {
+                "name": "Cylinder.002_0<Cylinder.002<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "327"
+        },
+        "329": {
+            "link": {
+                "name": "Cylinder.001<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "310"
+        },
+        "330": {
+            "link": {
+                "name": "Cylinder.001_0<Cylinder.001<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "329"
+        },
+        "331": {
+            "link": {
+                "name": "Cylinder.003<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "310"
+        },
+        "332": {
+            "link": {
+                "name": "Cylinder.003_0<Cylinder.003<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "331"
+        },
+        "333": {
+            "link": {
+                "name": "Plane.012<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "310"
+        },
+        "334": {
+            "link": {
+                "name": "Plane.012_0<Plane.012<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "333"
+        },
+        "335": {
+            "link": {
+                "name": "Cube.005<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "310"
+        },
+        "336": {
+            "link": {
+                "name": "Cube.005_0<Cube.005<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "335"
+        },
+        "337": {
+            "link": {
+                "name": "Cube<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "310"
+        },
+        "338": {
+            "link": {
+                "name": "Cube_0<Cube<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "337"
+        },
+        "339": {
+            "link": {
+                "name": "Plane.002<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "310"
+        },
+        "340": {
+            "link": {
+                "name": "Plane.002_0<Plane.002<Root<RootNode (model correction matrix)<RootNode (gltf orientation matrix)",
+                "file": "assets\\scene.gltf"
+            },
+            "parent": "339"
         }
     },
     "meshes": {
@@ -2026,6 +2002,96 @@
                 "name": "TeleportIndicator",
                 "file": "models\\teleport-indicator.glb"
             }
+        },
+        "259": {
+            "link": {
+                "name": "Cylinder.008_0",
+                "file": "assets\\scene.gltf"
+            }
+        },
+        "260": {
+            "link": {
+                "name": "Cube.035_0",
+                "file": "assets\\scene.gltf"
+            }
+        },
+        "261": {
+            "link": {
+                "name": "Cylinder_Cylinder.009_0",
+                "file": "assets\\scene.gltf"
+            }
+        },
+        "262": {
+            "link": {
+                "name": "Plane.001_0",
+                "file": "assets\\scene.gltf"
+            }
+        },
+        "263": {
+            "link": {
+                "name": "Cylinder.000_0",
+                "file": "assets\\scene.gltf"
+            }
+        },
+        "264": {
+            "link": {
+                "name": "Plane.009_0",
+                "file": "assets\\scene.gltf"
+            }
+        },
+        "265": {
+            "link": {
+                "name": "Cylinder_0",
+                "file": "assets\\scene.gltf"
+            }
+        },
+        "266": {
+            "link": {
+                "name": "Plane_0",
+                "file": "assets\\scene.gltf"
+            }
+        },
+        "267": {
+            "link": {
+                "name": "Cylinder.002_0",
+                "file": "assets\\scene.gltf"
+            }
+        },
+        "268": {
+            "link": {
+                "name": "Cylinder.001_0",
+                "file": "assets\\scene.gltf"
+            }
+        },
+        "269": {
+            "link": {
+                "name": "Cylinder.003_0",
+                "file": "assets\\scene.gltf"
+            }
+        },
+        "270": {
+            "link": {
+                "name": "Plane.012_0",
+                "file": "assets\\scene.gltf"
+            }
+        },
+        "271": {
+            "link": {
+                "name": "Cube.005_0",
+                "file": "assets\\scene.gltf"
+            }
+        },
+        "272": {
+            "link": {
+                "name": "Cube_0",
+                "file": "assets\\scene.gltf"
+            }
+        },
+        "273": {
+            "link": {
+                "name": "Plane.002_0",
+                "file": "assets\\scene.gltf"
+            }
         }
     },
     "textures": {
@@ -2051,6 +2117,12 @@
             "link": {
                 "name": "texture_1",
                 "file": "models\\oculus-touch-v2-right.glb"
+            }
+        },
+        "257": {
+            "link": {
+                "name": "texture_0",
+                "file": "assets\\scene.gltf"
             }
         }
     },
@@ -2094,6 +2166,12 @@
                 256,
                 256
             ]
+        },
+        "256": {
+            "link": {
+                "name": "image_0",
+                "file": "assets\\scene.gltf"
+            }
         }
     },
     "materials": {
@@ -2322,6 +2400,12 @@
                     0.8392072,
                     1.0
                 ]
+            }
+        },
+        "258": {
+            "link": {
+                "name": "Main",
+                "file": "assets\\scene.gltf"
             }
         }
     },
@@ -2775,6 +2859,10 @@
         },
         "255": {
             "fileName": "models/teleport-indicator.glb",
+            "importerName": ""
+        },
+        "307": {
+            "fileName": "assets/scene.gltf",
             "importerName": ""
         }
     },
